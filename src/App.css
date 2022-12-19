@@ -1,0 +1,9 @@
+.main{
+  /* height: 100vh; */
+  /* width: 100vw; */
+  background: rgb(194, 234, 247);
+}
+.dark{
+  background-color: black;
+  color: aliceblue;
+}
