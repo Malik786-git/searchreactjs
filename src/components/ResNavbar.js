@@ -18,6 +18,7 @@ const ResNavbar = () => {
             <Nav.Link href="#link"><NavLink className='navbarItems' activeClassName="active"  to='/list'> List </NavLink></Nav.Link>
             <Nav.Link href="#link"><NavLink className='navbarItems' activeClassName="active"  to='/search'> Search </NavLink></Nav.Link>
             <Nav.Link href="#link"><NavLink className='navbarItems' activeClassName="active"  to='/update'> Update </NavLink></Nav.Link>
+            <Nav.Link href="#link"><NavLink className='navbarItems' activeClassName="active"  to='/myuser'> My User </NavLink></Nav.Link>
            
           </Nav>
         </Navbar.Collapse>

@@ -36,3 +36,38 @@ code {
   background: lightblue;
   margin: 10px auto;
 }
+.res-form{
+
+  margin: 50px auto;
+  max-width: 300px;
+  padding: 0px 10px;
+}
+.spinner{
+  text-align: center;
+}
+.print-name{
+  /* width: 300px; */
+  margin: 0px auto;
+}
+.search{
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-around;
+}
+.search input{
+  width: 95%;
+  border: 0px !important;
+ border-radius: 0 !important;
+}
+.search .fa-search{
+ width: 5%;
+ text-align: center;
+ font-size: 25px;
+ margin: 10px auto;
+}
+.search:active{
+  box-shadow: none !important;
+}
+.shop-card{
+  box-shadow: 10px 10px 10px grey;
+}
