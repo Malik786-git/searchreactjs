@@ -10,6 +10,8 @@ import ResList from './components/pages/ResList';
 import ResSearch from './components/pages/ResSearch';
 import ResUpdate from './components/pages/ResUpdate';
 import MyUser from './components/pages/MyUser';
+import Page404 from './components/pages/Page404';
+import UserPage from './components/pages/UserPage';
 
 
 
@@ -27,6 +29,8 @@ function App() {
             <Route path='/search' element={<ResSearch/>}/>
             <Route path='/update' element={<ResUpdate/>}/>
             <Route path='/myuser' element={<MyUser/>}/>
+            <Route path='/user/:name' element={<UserPage/>}/>
+            <Route path='/*' element={<Page404/>}/>
           </Routes>
 
         </BrowserRouter>

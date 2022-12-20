@@ -41,6 +41,7 @@ code {
   margin: 50px auto;
   max-width: 300px;
   padding: 0px 10px;
+  color: grey;
 }
 .spinner{
   text-align: center;
@@ -70,4 +71,7 @@ code {
 }
 .shop-card{
   box-shadow: 10px 10px 10px grey;
+}
+.product-card-body{
+  height: 200px !important;
 }
