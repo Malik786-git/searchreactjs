@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 
 const MyUser = () => {
- const [myuser, setMyUser] = useState('');
+ const [myuser, getMyUser] = useState('');
 
 
  useEffect(()=>{
-  setMyUser(localStorage.getItem('userName'))
+  getMyUser(localStorage.getItem('userName'));
 },[])
 
 // console.log(myuser);
